@@ -1,5 +1,5 @@
 # Interactive-EEG-Preprocessing-Tool
-* A step-by-step MATLAB interface for EEG data preprocessing built on FieldTrip toolbox.
+A step-by-step MATLAB interface for EEG data preprocessing built on FieldTrip toolbox.
 ## Prerequisites
 * **MATLAB**
 * **FieldTrip Toolbox:** Download it from [FieldTrip website](https://www.fieldtriptoolbox.org/)
@@ -32,7 +32,7 @@
 * Electrode files in FieldTrip folder are automatically extracted and listed in the UI.
 ## Developer Notes
 * The tool is tested with `.vhdr`, `.eeg` and `.set` files.
-* Functions are named with the corresponding step number at the end (e.g. load_data **__0_**).
+* Functions are named with the corresponding step number at the end (e.g. `load_data_0`).
 * FieldTrip function `ft_rejectvisual` is used for dropping bad channels, removing bad epochs and applying artifact rejection.
 
 ## Acknowledgements
