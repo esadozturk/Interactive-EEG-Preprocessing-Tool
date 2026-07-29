@@ -5,7 +5,7 @@ A step-by-step MATLAB interface for EEG data preprocessing built on FieldTrip to
 * **FieldTrip Toolbox:** Download it from [FieldTrip website](https://www.fieldtriptoolbox.org/)
 ## Installation
 **Option 1: App Installer (Recommended)**
-1. Download the `.mlappinstall` file.
+1. Download the `.mltbx` file.
 2. Double-click the file in MATLAB to install it directly into your **Apps** tab.
    
 **Option 2: Source Code**
